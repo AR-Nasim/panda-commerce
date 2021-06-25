@@ -17,3 +17,46 @@
 .price{
     color: #FF136F;
 }
+.cat-bag,.cat-shoes,.cat-watch{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.cat-watch{
+    background-image: linear-gradient(to right, #FFA500, #e7bc6b);
+    color: white;
+    border-radius: 10px;
+}
+.cat-shoes{
+    background-image: linear-gradient(to right, #d436cf, #c77cc4);
+    color: white;
+    border-radius: 10px;
+}
+.cat-bag{
+    background-image: linear-gradient(to right,#0000FF,#4d4df1);
+    color: white;
+    border-radius: 10px;
+}
+.catagory img{
+    height: 100px;
+}
+.card{
+    box-shadow: 5px 5px 10px lightgray;
+    border: none;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.email{
+    padding: 7px 30px;
+}
+.contact{
+    height: 400px;
+    background-color: #FCEAE8;
+}
+footer{
+    text-align: center;
+}
+#contact, #backpack, #shoes{
+    transition: .5s;
+}
